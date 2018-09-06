@@ -1,6 +1,6 @@
 body {
     
-    background-color:rgb(20,20,20);
+    
     font-family: comic;
     font-size:16px;
     line-height:1.5;
@@ -61,7 +61,7 @@ header a{
 
 #showcase{
     
-    color:white;
+    color:black;
     background:url(images.jpg) no-repeat 120px 120px;
     min-height:500px;
     max-height:600px;
