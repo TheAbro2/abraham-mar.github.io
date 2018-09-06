@@ -1,0 +1,153 @@
+body {
+    
+    background-color:rgb(20,20,20);
+    font-family: comic;
+    font-size:16px;
+    line-height:1.5;
+    
+    
+    
+}
+
+.container{
+    width: 80%;
+    margin:auto;
+    overflow: hidden;
+    
+}
+
+header{ 
+ background: rgb(0,24,0);    
+ color:white;
+ position:sticky;
+ top:.25rem;
+ 
+ 
+    
+    
+    
+}
+
+
+
+header h1{
+       float :left;
+    
+    
+    
+    
+}
+
+nav{
+    float:right;
+  
+    
+    
+}
+
+header li{
+    display: inline;
+    margin:10px;
+    font-size:20px;
+}
+
+header a{
+    text-decoration:none;
+    color:white;
+    text-transform: uppercase;
+    position:sticky;
+    
+}
+
+#showcase{
+    
+    color:white;
+    background:url(images.jpg) no-repeat 120px 120px;
+    min-height:500px;
+    max-height:600px;
+    
+}
+
+#showcase h1{
+    width:40%;
+    margin:auto;
+    
+    
+}
+
+#showcase p{
+    width:40%;
+    margin:auto;
+    margin-top:50px;
+    
+}
+ul {
+  list-style: none;
+}
+
+footer {
+    background-color:rgb(0,24,0);
+    
+}
+
+header .highlight{
+    
+    color:blue;
+    font-weight:bold;
+}
+
+header a:hover{
+    font-weight:bold;
+    color:rgb(200,200,200);
+}
+
+footer a:hover{
+    font-weight:bold;
+    color:lime;
+    width:100%;
+}
+
+#main{
+    text-align:left;
+}
+
+
+
+.dark{
+    padding:15px;
+    
+    color:white;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+
+
+
+#sidebar{
+    float:right;
+    width:30%;
+}
+
+#sidebar2{
+    float:right;
+    width:20%;
+}
+
+#main li{
+    list-style:none;
+    margin-top:30px;
+    font-size:18px;
+    line-height:normal;
+}
+
+@media(max-width:770px){
+    
+    header h1, nav, .hat {
+        color:blue;
+       float: none;
+       text-align:center;
+       width:100%;
+    }
+    
+}
